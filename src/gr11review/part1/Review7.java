@@ -35,7 +35,7 @@ public class Review7{
 
 
      }
-     while(){
+     while(intoddcounter = 0; strthesentence){
 
      }
      System.out.println("total characters in the sentence is "+ intletters);
