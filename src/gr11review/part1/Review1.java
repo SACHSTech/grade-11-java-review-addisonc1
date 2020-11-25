@@ -10,7 +10,7 @@ public class Review1 {
     // variables
     int intmonth;
     int intday;
-    BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
+    BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
     intmonth = 0;
     intday = 0;
     // get the days and months
