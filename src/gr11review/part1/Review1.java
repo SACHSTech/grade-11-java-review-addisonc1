@@ -18,5 +18,6 @@ public class Review1 {
     intmonth = Integer.parseInt(keyboard.readLine());
     //("what day of the month do you want to print?");
      
-  }
+System.out.println("What month do you want to print?");
+    intmday = Integer.parseInt(keyboard.readLine());  }
 }

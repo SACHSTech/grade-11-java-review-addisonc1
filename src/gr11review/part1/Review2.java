@@ -14,7 +14,7 @@ public class Review2{
     System.out.println("1 - print a joke about your feet");
     System.out.println("2 - print a joke about your clothes");
     System.out.println("3 - print a joke about your teacher.");
-    intchoice = readint(); 
+    intchoice = Integer.parseInt(keyboard.readLine());
    
          if (intchoice == 0){
         System.out.println("How does the man on the moon cut his hair? Eclipes it!");
