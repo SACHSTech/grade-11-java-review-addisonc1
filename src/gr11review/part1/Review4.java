@@ -14,18 +14,19 @@ public class Review4{
     double dbltotal;
     int intcount;
     dblprice =0;
-
+    dblsubtotal = 0;
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
-    System.out.println("how many items do you want to buy?")
-    dblamount = Double.parseDouble(keyboard.readLine());
-    for (dblamount == intcount){
-      System.out.println("Enter the price for the item"+intcount);
-      dblprice = Double.parseDouble
+      System.out.println("how many items do you want to buy? ");
+      dblamount = Double.parseDouble(keyboard.readLine());
+    for (intcount= 1; intcount <= dblamount;intcount ++){
+      System.out.println("Enter the price for the item " +intcount);
+      dblprice = Double.parseDouble(keyboard.readLine());
+      dblsubtotal = dblprice +dblsubtotal;
     }
-    System.out.println("Subtotal"+dblprice)
-    dbltax = dblprice * 0.13;
-    System.out.println("tax:"+dbltax)
-    dbltotal = dblprice + dbltax
-    System.out.println("total:"+dbltotal)
+      System.out.println("Subtotal " +dblsubtotal);
+      dbltax = dblsubtotal * 0.13;
+      System.out.println("tax: " +dbltax);
+      dbltotal = dblsubtotal + dbltax;
+      System.out.println("total: " +dbltotal);
   }
 }
