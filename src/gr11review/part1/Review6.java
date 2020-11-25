@@ -11,7 +11,26 @@ public class Review6{
     double dblsubtotal;
     double dbltax;
     double dbltotal;
-    System.out
+    double dblprice;
+    dblprice = 1;
+    int intcount;
+    intcount = 0;
+    dblsubtotal = 0;
+    DecimalFormat dcm = new DecimalFormat("#.##");
+    BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
+    while (dblprice != 0){
+      intcount = intcount +1;
+      System.out.println("Enter the price for item "+intcount);
+      dblprice = Double.parseDouble(keyboard.readLine());
+      dblsubtotal = dblprice +dblsubtotal ;
+
+    }
+    
+    System.out.println("Subtotal " +dblsubtotal);
+      dbltax = dblsubtotal * 0.13;
+      System.out.println("tax: " +dbltax);
+      dbltotal = dblsubtotal + dbltax;
+      System.out.println("total: " +dbltotal);
   }
 }

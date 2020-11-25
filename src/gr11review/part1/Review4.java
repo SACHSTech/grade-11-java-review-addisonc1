@@ -15,7 +15,9 @@ public class Review4{
     int intcount;
     dblprice =0;
     dblsubtotal = 0;
+    DecimalFormat dcm = new DecimalFormat("#.##");
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+
       System.out.println("how many items do you want to buy? ");
       dblamount = Double.parseDouble(keyboard.readLine());
     for (intcount= 1; intcount <= dblamount;intcount ++){

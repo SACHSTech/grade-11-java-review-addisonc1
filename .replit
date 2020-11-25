@@ -1,2 +1,2 @@
 language = "java10"
-run = "javac -d bin src/gr11review/part1/Review4.java | java -classpath bin gr11review.part1.Review4"
+run = "javac -d bin src/gr11review/part1/Review6.java | java -classpath bin gr11review.part1.Review6"
