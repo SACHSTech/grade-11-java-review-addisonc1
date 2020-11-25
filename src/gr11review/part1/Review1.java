@@ -16,7 +16,7 @@ public class Review1 {
     // get the days and months
     System.out.println("What month do you want to print?");
     intmonth = Integer.parseInt(keyboard.readLine());
-    //("what day of the month do you want to print?");
+  
      System.out.println("What day do you want to print?");
     intday = Integer.parseInt(keyboard.readLine());
     //if statement
