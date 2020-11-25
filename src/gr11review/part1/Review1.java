@@ -10,14 +10,51 @@ public class Review1 {
     // variables
     int intmonth;
     int intday;
-    BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
-    intmonth = 0;
+      intmonth = 0;
     intday = 0;
     // get the days and months
     System.out.println("What month do you want to print?");
     intmonth = Integer.parseInt(keyboard.readLine());
     //("what day of the month do you want to print?");
-     
-System.out.println("What month do you want to print?");
-    intmday = Integer.parseInt(keyboard.readLine());  }
+     System.out.println("What day do you want to print?");
+    intday = Integer.parseInt(keyboard.readLine()); 
+    //if statement
+        if (intmonth = 1){
+			    System.out.println(intday);
+		    }else if (intmonth = 2){
+			    intday= intday +31;
+			    System.out.println(intday);
+		    }else if (intmonth = 3){
+			    intday= intday + 59;
+			    System.out.println(intday);
+		    }else if (intmonth = 4){
+			    intday= intday +90;
+			    System.out.println(intday);
+		    }else if (intmonth = 5){
+			    intday= intday +120;
+			    System.out.println(intday);
+		    }else if (intmonth = 6){
+			    intday= intday +151;
+			    System.out.println(intday);
+		    }else if (intmonth = 7){
+			    intday= intday +181;
+			    System.out.println(intday);
+		    }else if (intmonth = 8){
+			    intday= intday +212;
+			    System.out.println(intday);
+		    }else if (intmonth = 9){
+			    intday= intday +242;
+			    System.out.println(intday);
+		    }else if (intmonth = 10){
+			    intday= intday +273;
+			    System.out.println(intday);
+		    }else if (intmonth = 11){
+			    intday= intday +303;
+			    System.out.println(intday);
+		    }else if (intmonth = 12){
+			    intday= intday +334;
+			    System.out.println(intday);	
+		}
+     }
+
 }
