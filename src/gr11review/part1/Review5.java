@@ -5,7 +5,7 @@ import java.io.*;
 *Thus the amount of money after the first year is now $100.00 + $2.50 = $102.50.
 *@author: Addison Chan
 */
-public class Review3{
+public class Review5{
   public static void main (String[] args)throws Exception{
     double dblyearlydepo;
     double dblintrestrate;
@@ -18,16 +18,18 @@ public class Review3{
     dblintrestrate = 0;
     dbltargetamount = 0;
     dbltime = 0;
+    dblinvest = 0;
     System.out.println("Enter the yearly invested amount:");
-    dblyearlydepo = Integer.parseInt(keyboard.readLine());
+    dblyearlydepo = Double.parseDouble(keyboard.readLine());
     System.out.println("Enter the compound interest rate:");
-    dblintrestrate = Integer.parseInt(keyboard.readLine());
+    dblintrestrate = Double.parseDouble(keyboard.readLine());
     System.out.println("Enter the target amount:");
-    dbltargetamount = Integer.parseInt(keyboard.readLine());
+    dbltargetamount = Double.parseDouble(keyboard.readLine());
       while (dblinvest <= dbltargetamount){
-        dblinvest = dblintrestrate/dblyearlydepo * 100;
+        dblinvest = dblintrestrate/dblyearlydepo * 100 ;
         dbltime = dbltime + 1;
+        
       }
-      System.out.println("The target amoun will be earned in 15 years.");
+      System.out.println("The target amount will be earned in"+dbltime);
   }
 }
