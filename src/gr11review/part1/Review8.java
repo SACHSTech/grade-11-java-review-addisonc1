@@ -14,19 +14,19 @@ public class Review8{
     int intrandom2;
     int intrandom3;
     int inttriple;
-    
+
     intnumbers = 9;
     intfnumbers = 0;
     inttriple = 0;
-    for (intcount = 0 ; intcount < 1000; intcount++){
+    for (intcount = 0 ; intcount < 999; intcount++){
     intrandom1 = (int)((Math.random() * intnumbers ) + intfnumbers); 
-    System.out.println(" "+ intrandom1);
+    System.out.print(" \n" + intrandom1);
     
     intrandom2 = (int)((Math.random() * intnumbers) + intfnumbers); 
-    System.out.print(" "+ intrandom2);
+    System.out.print(" " + intrandom2);
 
     intrandom3 = (int)((Math.random() * intnumbers) + intfnumbers); 
-    System.out.print(" " +intrandom3);
+    System.out.print(" " + intrandom3);
     
     if (intrandom1 == intrandom2 && intrandom2 == intrandom3 ){
       inttriple = inttriple + 1;
@@ -36,6 +36,7 @@ public class Review8{
 
 
     }
-    System.out.println(inttriple);
+    
+    System.out.print("\n"+ inttriple);
   }
 }
