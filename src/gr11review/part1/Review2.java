@@ -7,15 +7,14 @@ import java.io.*;
 */
 public class Review2{
   public static void main (String[] args)throws Exception{
-    int intchoice;
-    intchoice = 0;
-    System.out.println("Choose a choice");
-    System.out.println("0 - print an joke about your hair");
-    System.out.println("1 - print a joke about your feet");
-    System.out.println("2 - print a joke about your clothes");
-    System.out.println("3 - print a joke about your teacher.");
-    intchoice = Integer.parseInt(keyboard.readLine());
-   
+   intchoice;
+	  intchoice = 0;
+	  System.out.println("0 - print an joke about your hair");
+	  System.out.println("1 - print a joke about your feet");
+	  System.out.println("2 - print a joke about your clothes");
+	  System.out.println("3 - print a joke about your teacher");
+	  System.out.println("Choose an option");
+	  intchoice = Integer.parseInt(keyboard.readLine());e   
          if (intchoice == 0){
         System.out.println("How does the man on the moon cut his hair? Eclipes it!");
         } else if (intchoice == 1){
