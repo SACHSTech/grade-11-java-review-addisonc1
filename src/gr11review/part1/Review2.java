@@ -7,16 +7,20 @@ import java.io.*;
 */
 public class Review2{
   public static void main (String[] args)throws Exception{
+    //variables
     int intchoice;
+    //intializing variable
 	  intchoice = 0;
+    //keyboard reader
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+    //option chooser
 	  System.out.println("0 - print an joke about your hair");
 	  System.out.println("1 - print a joke about your feet");
 	  System.out.println("2 - print a joke about your clothes");
 	  System.out.println("3 - print a joke about your teacher");
 	  System.out.println("Choose an option");
 	  intchoice = Integer.parseInt(keyboard.readLine());   
-         
+      //switch to each case for different outcomes
       switch(intchoice){
         case 0:
 		  	  System.out.println("How does the man on the moon cut his hair?");

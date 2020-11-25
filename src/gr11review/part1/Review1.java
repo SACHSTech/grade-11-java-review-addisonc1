@@ -16,10 +16,9 @@ public class Review1 {
     // get the days and months
     System.out.println("What month do you want to print?");
     intmonth = Integer.parseInt(keyboard.readLine());
-  
-     System.out.println("What day do you want to print?");
+    System.out.println("What day do you want to print?");
     intday = Integer.parseInt(keyboard.readLine());
-    //if statement
+    //if statement for each month
         if (intmonth = 1){
 			    System.out.println(intday);
 		    }else if (intmonth = 2){

@@ -7,18 +7,21 @@ import java.text.DecimalFormat;
 */
 public class Review6{
   public static void main (String[] args)throws Exception{
+    //variables
     double dblitem;
     double dblsubtotal;
     double dbltax;
     double dbltotal;
     double dblprice;
+    //intializing variables
     dblprice = 1;
     int intcount;
     intcount = 0;
     dblsubtotal = 0;
+    //setting up decimal format and keyboard reader
     DecimalFormat dcm = new DecimalFormat("#.##");
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
-
+    //while loop until you put in 0
     while (dblprice != 0){
       intcount = intcount +1;
       System.out.println("Enter the price for item "+intcount);
